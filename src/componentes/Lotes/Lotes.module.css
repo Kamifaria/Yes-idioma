@@ -1,0 +1,104 @@
+@keyframes animacaobtn{
+    from {border: 1px solid #F2A136;}
+    to {border: transparent;}
+}
+
+.containerLotes{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    color: #F2A136;
+    background-color: #F5F5F5;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloLote{
+    padding: 15px;
+    text-align: center;
+}
+
+.tituloLote p{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.valorLotes{
+    color: black;
+}
+
+.bannerLotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 450px;
+    width: 310px;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bannerLotes:hover{
+    a{
+        cursor: pointer;
+    }
+}
+
+.loteEsgotado{
+    position: absolute;
+    width: 100%;
+    
+}
+
+.bannerLotes p{
+    color: black;
+    padding: 20px;
+}
+
+.btnLotes{
+    color: white;
+    border: 1px solid linear-gradient(270deg, #ED9A34 20%, #D77C2B 47%, #DD903C 58%, #E3A74F 71.5%, #EFD173 93.5%);
+    border-radius: 43px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(270deg, #ED9A34 20%, #D77C2B 47%, #DD903C 58%, #E3A74F 71.5%, #EFD173 93.5%);
+}
+
+
+
+
+.btnLotes:hover{
+    animation-name: animacaobtn;
+    animation-duration: 1s;
+    border: transparent;
+}
+
+
+
+.bannerContainerLotes{
+    display: flex;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+@media (max-width: 600px){
+    .containerLotes{
+        max-width: 600px;
+        width: 100%;
+        
+    }
+
+    .bannerContainerLotes{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

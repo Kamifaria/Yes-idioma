@@ -1,0 +1,201 @@
+.containerTransfer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+}
+
+.containerTransfer img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.tituloTransfer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.tituloTransfer strong {
+  color: #ba202d;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tituloTransfer p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.formTransfer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1040px;
+  border-radius: 10px;
+}
+.duplo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.duplo input {
+  width: 50% !important;
+}
+
+.triplo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.triplo input {
+  width: 30%;
+}
+
+.botaoConvidado {
+  margin-left: 60%;
+  background-color: transparent;
+  color: #ba202d;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.divBotaoParticipante {
+  width: 100%;
+}
+
+.adicionar {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 35px;
+  color: #ba202d;
+  background-color: transparent;
+  border: 1px solid #ba202d;
+  border-radius: 20px;
+}
+
+
+
+.radioButtonContainer {
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.radioButtonContainer h4 {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.radioButtonContainer input[type="radio"] {
+  display: none; /* Oculta o input de rádio padrão */
+}
+
+.radioButtonContainer label {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 20px; /* Espaçamento entre os botões */
+  background: #f9f8f6;
+  border: 1px solid #d2cec5;
+  cursor: pointer;
+  font-size: 16px;
+  color: #707070; /* Cor do texto preto */
+  border-radius: 20px; /* Borda arredondada */
+  min-width: 45px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioButtonContainer label:hover {
+  background-color: #ddd; /* Cor de fundo ao passar o mouse */
+  color: #fff;
+}
+
+.radioButtonContainer input[type="radio"]:checked + label {
+  background: #ba202d;
+  color: #fff; /* Cor do texto quando selecionado */
+}
+
+.radioButtonContainer {
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.radioButtonContainer h4 {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.radioButtonContainer input[type="radio"] {
+  display: none; /* Oculta o input de rádio padrão */
+}
+
+.radioButtonContainer label {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 20px; /* Espaçamento entre os botões */
+  background: #f9f8f6;
+  border: 1px solid #d2cec5;
+  cursor: pointer;
+  font-size: 16px;
+  color: #707070; /* Cor do texto preto */
+  border-radius: 20px; /* Borda arredondada */
+  min-width: 45px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioButtonContainer label:hover {
+  background-color: #ddd; /* Cor de fundo ao passar o mouse */
+  color: #fff;
+}
+
+.radioButtonContainer input[type="radio"]:checked + label {
+  background: #ba202d;
+  color: #fff; /* Cor do texto quando selecionado */
+}
+
+@media (max-width: 600px) {
+  .containerTransfer{
+    max-width: 500px;
+    width: 100%;
+    
+  }
+  .formTransfer{
+    max-width: 95%;
+  }
+  .duplo{
+    flex-direction: column;
+  }
+
+  .duplo input {
+    width: 98% !important;
+  }
+
+  .triplo {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .triplo input {
+    width: 45%;
+  }
+
+  .botaoenvio{
+    margin-left: 70%;
+  }
+}

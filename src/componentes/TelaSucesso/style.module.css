@@ -1,0 +1,75 @@
+.containerSucesso{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.confirmacao{
+    color: #BA202D;
+}
+
+.etapasSucesso{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #9A9B9C;
+}
+
+
+
+
+
+.containerSucesso img{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Finalizado{
+    font-size: 38px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #1BA729;
+
+}
+
+.containerSucesso p{
+    max-width: 75%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+
+
+@media (max-width: 600px) {
+   .containerSucesso {
+    max-width: 600px;
+    width: 100%;
+    height: 1825px;
+    flex-wrap: wrap;
+    background-color: #1BA729;
+}
+
+    .etapasSucesso {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+}

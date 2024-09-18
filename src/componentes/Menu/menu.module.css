@@ -1,0 +1,103 @@
+@keyframes animacao {
+  from {
+    color: white;
+  }
+  to {
+    color: #ba202d;
+  }
+}
+
+@keyframes animacaobtn {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #ba202d;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  padding: 20px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  color: white;
+  transition: background-color 0.3s ease;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.menuItem {
+  gap: 1%;
+}
+
+.menuItem:hover {
+  color: #ba202d;
+  animation-name: animacao;
+  animation-duration: 0.5s;
+}
+
+.scrolled {
+  background-color: #ba202d; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
+}
+
+.scrolled:hover {
+  a {
+    color: #ffff;
+    animation-name: animacao;
+    animation-duration: 0.0s;
+  }
+}
+
+.container nav {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 55%;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 2%;
+}
+
+.logo {
+  width: 45%;
+}
+
+.buttonMenu {
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 43px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+
+.buttonMenu:hover {
+  background-color: #ba202d;
+  animation-name: animacaobtn;
+  animation-duration: 0.5s;
+  border: none;
+  color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 600px;
+    width: 100vw;
+    position: absolute;
+  }
+
+  .container nav {
+    display: none;
+  }
+}

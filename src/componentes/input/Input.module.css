@@ -1,0 +1,10 @@
+.containerInput{
+    border: 1px solid #D2CEC5;
+    background-color: #F9F8F6;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    padding: 0 10px;
+}

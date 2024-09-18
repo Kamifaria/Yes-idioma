@@ -1,0 +1,74 @@
+.containerTransfer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
+}
+
+.containerTransfer img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.checkboxparticipante{
+  padding: 10px;
+}
+
+.tituloParticipante {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.tituloParticipante strong {
+  color: #ba202d;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tituloTransfer p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.formTransfer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1040px;
+  border-radius: 10px;
+}
+
+.continuar:hover{
+  cursor: pointer;
+}
+
+.duplo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.duplo input {
+  width: 50% !important;
+}
+
+.triplo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.triplo input {
+  width: 30%;
+}
+@media (max-width: 600px) {
+  .triplo {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .triplo input {
+    width: 40%;
+  }
+}

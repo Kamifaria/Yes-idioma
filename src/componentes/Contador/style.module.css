@@ -1,0 +1,57 @@
+.contador{
+    Width: 760px;
+    Height: 145px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.contador span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid black;
+    height: 90px;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contador span b{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contador span:last-child{
+border: 0;
+}
+
+@media (max-width: 600px){
+    .contador{
+        max-width: 600px;
+        width: 100vw;
+        padding: 10px 10px;
+    }
+
+    .contador span{
+        padding: 0;
+    }
+
+    .contador span b{
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+
+
+}

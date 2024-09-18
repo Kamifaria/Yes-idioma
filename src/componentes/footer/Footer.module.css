@@ -1,0 +1,34 @@
+.containerFooter {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #BA202D;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.containerFooter img {
+  width: 401.85px;
+  height: 169.5px;
+}
+.containerFooter p {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .containerFooter {
+    max-width: 600px;
+    min-width: 100%;
+  }
+
+  .containerFooter img{
+    width: 297.25px;
+    height: 88.4px;
+  }
+}

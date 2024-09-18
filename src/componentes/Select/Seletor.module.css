@@ -1,0 +1,17 @@
+.escolas {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.escolas select {
+  max-width: 1040px;
+  width: 98%;
+  box-sizing: border-box;
+  border: 1px solid #d2cec5;
+  background-color: #f9f8f6;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  height: 45px;
+  padding: 0 10px;
+}
