@@ -34,7 +34,7 @@ function ComponentMenu(props) {
   }, []);
 
   return (
-    <div className={`${style.container} ${scrolled ? style.scrolled : ""}`}>
+    <div className={`${style.header} ${scrolled ? style.scrolled : ""}`}>
      
       <nav>
         <a className={style.menuItem} href="#">

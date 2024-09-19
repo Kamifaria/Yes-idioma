@@ -1,35 +1,32 @@
 @keyframes animacao {
   from {
-    color: white;
+    color: #FFFFFF;
   }
   to {
-    color: #ba202d;
+    color: #BA202D;
   }
 }
 
 @keyframes animacaobtn {
   from {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.0);
   }
   to {
-    background-color: #ba202d;
+    background-color: #BA202D;
   }
 }
 
-.container {
+.header {
   max-width: 1440px;
-  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
-  top: 0;
-  left: 50%;
   transform: translate(-50%, 0);
   z-index: 1;
-  padding: 20px 50px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.0);
+  
   color: white;
   transition: background-color 0.3s ease;
   a {
