@@ -43,7 +43,7 @@ function Lotes( props ){
                     <h1 className={style.valorLotes}>R$ 3.000</h1>
                     <p>por pessoa até 30/09</p>
                     
-                    <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva</a>
+                    <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva </a>
                 </div>
             </div>
 

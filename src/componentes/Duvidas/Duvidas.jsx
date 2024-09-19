@@ -22,7 +22,7 @@ function Duvidas() {
 
           <strong>QUERO FICAR EM UM QUARTO SOZINHO! COMO FAÇO?</strong>
           <p>
-            Faça a sua inscrição em quarto single e realize o pagamento no valor de R$ 3.000,00. Sim, a tarifa é diferente para acomodação individual e as unidades de quartos neste formato são limitadas.
+            Faça a sua inscrição em quarto single e realize o pagamento no valor de R$ 3.600,00. Sim, a tarifa é diferente para acomodação individual e as unidades de quartos neste formato são limitadas.
           </p>
 
           <strong>VOU SOZINHO! POSSO FICAR EM QUARTO DUPLO OU TRIPLO?</strong>

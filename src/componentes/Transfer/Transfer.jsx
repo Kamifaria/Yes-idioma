@@ -13,23 +13,19 @@ function Transfer() {
           <p className={style.titleTransfer}>TRANSFER</p>
         </b>
         <b>
-          <h1 className={style.titleTransfer}>Não fique de fora da   </h1>
+          <h1 className={style.titleTransfer}>Não fique de fora da</h1>
         </b>
         <h1 className={style.titleTransfer}>10ª Convenção YES!</h1>
         <p>
-          Queremos que sua jornada até o evento seja a mais segura e conformável
-          possível.
+          Queremos que sua jornada até o evento seja a mais segura e confortável possível.
         </p>
 
         <p>
-          Então, planeje sua rota com antecedência e escolha a opção de
-          transporte que mais se adequa às suas necessidades.
+          Então, planeje sua rota com antecedência e escolha a opção de transporte que mais se adequa às suas necessidades.
         </p>
 
         <p>
-          Disponibilizaremos dois transferes para maior comodidade de vocês. Um
-          sairá do aeroporto Galeão e outro da Franqueadora. Esta ação
-          também tem limitações de vagas, então, garanta sua vaga já!{' '}
+          Disponibilizaremos dois transfers para maior comodidade de vocês. Um sairá do Aeroporto Galeão e outro da Franqueadora. Esta ação também tem limitações de vagas, então, garanta sua vaga já!{' '}
         </p>
 
        

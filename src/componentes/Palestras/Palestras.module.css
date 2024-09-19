@@ -58,6 +58,16 @@
   margin: 0 10px;
 }
 
+.palestrante2{
+  display: flex;
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  visibility: hidden;
+}
+
 .nomePalestrante {
   position: absolute;
   top: 0;

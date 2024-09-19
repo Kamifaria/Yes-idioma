@@ -1,49 +1,73 @@
 @keyframes animacao {
   from {
-    color: #FFFFFF;
+    color: white;
   }
   to {
-    color: #BA202D;
+    color: #ba202d;
   }
 }
 
 @keyframes animacaobtn {
   from {
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: transparent;
   }
   to {
-    background-color: #BA202D;
+    background-color: #ba202d;
   }
 }
 
-.header {
-  max-width: 1440px;
-  padding: 40px 20px;
+.container {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   align-items: center;
-  position: fixed;
-  transform: translate(-50%, 0);
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.0);
-  
-  color: white;
-  transition: background-color 0.3s ease;
-  a {
-    color: white;
-    text-decoration: none;
-  }
+}
+
+.container a {
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
 }
 
 .menuItem {
-  gap: 1%;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 
 .menuItem:hover {
-  color: #ba202d;
+  color: #BA202D;
   animation-name: animacao;
   animation-duration: 0.5s;
 }
+
+.buttonMenu {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 40px;
+  text-transform: uppercase;
+}
+
+.buttonMenu:hover {
+  background-color: #BA202D;
+  animation-name: animacaobtn;
+  animation-duration: 0.5s;
+  border: none;
+  color: #FFFFFF;
+}
+
 
 .scrolled {
   background-color: #ba202d; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
@@ -57,35 +81,10 @@
   }
 }
 
-.container nav {
-  display: flex;
-  box-sizing: border-box;
-  justify-content: space-between;
-  width: 55%;
-  text-transform: uppercase;
-  align-items: center;
-  gap: 2%;
-}
 
-.logo {
-  width: 45%;
-}
 
-.buttonMenu {
-  font-size: 15px;
-  border: 1px solid white;
-  border-radius: 43px;
-  padding: 5px 20px;
-  text-transform: uppercase;
-}
 
-.buttonMenu:hover {
-  background-color: #ba202d;
-  animation-name: animacaobtn;
-  animation-duration: 0.5s;
-  border: none;
-  color: whitesmoke;
-}
+
 
 @media (max-width: 600px) {
   .container {
