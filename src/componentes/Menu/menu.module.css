@@ -1,18 +1,18 @@
 @keyframes animacao {
   from {
-    color: white;
+    color: #FFFFFF;
   }
   to {
-    color: #ba202d;
+    color: #00FF7F;
   }
 }
 
 @keyframes animacaobtn {
   from {
-    background-color: transparent;
+    background-color: #FFFFFF;
   }
   to {
-    background-color: #ba202d;
+    background-color: #00FF7F;
   }
 }
 
@@ -24,6 +24,7 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  background-color: #2C2C2C;
 }
 
 .container a {
@@ -45,7 +46,7 @@
 }
 
 .menuItem:hover {
-  color: #BA202D;
+  color: #00FF7F;
   animation-name: animacao;
   animation-duration: 0.5s;
 }
@@ -55,13 +56,15 @@
   font-size: 14px;
   font-weight: 700;
   color: #FFFFFF;
-  border: 2px solid white;
   border-radius: 40px;
   text-transform: uppercase;
+  background-color: #00FF7F; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#007BFF, #00FF7F);
 }
 
 .buttonMenu:hover {
-  background-color: #BA202D;
+  background-color: #39FF14; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#00FF7F, #007BFF);
   animation-name: animacaobtn;
   animation-duration: 0.5s;
   border: none;
@@ -70,7 +73,7 @@
 
 
 .scrolled {
-  background-color: #ba202d; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
+  background-color: #2C2C2C; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
 }
 
 .scrolled:hover {

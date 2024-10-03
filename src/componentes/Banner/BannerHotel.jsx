@@ -18,15 +18,11 @@ function BannerHotel(props) {
       <img className={style.imgBanner} src={Banner} alt="" />
 
       <div className={style.textobanner}>
-        <div>
-          <img className={style.LogoNova} src={LogoNova} alt="" />
-        </div>
-
-        <p>07 à 10 de outubro de 2024</p>
+        <h1>A Hora é agora!</h1>
+        <p>Adquira o seu lugar na 11ª Convenção 2025</p>
         
         <a onClick={() => props.page_control("CadastroTransfer")}
-          className={style.butaoBanner}
-        >
+          className={style.butaoBanner} >
           Fazer Reserva
         </a>
       </div>
