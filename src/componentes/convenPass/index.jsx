@@ -1,4 +1,4 @@
-import Pass from './Pass.png';
+import Pass from './video.png';
 import style from './style.module.css';
 
 function ConvPass(){
@@ -7,9 +7,9 @@ function ConvPass(){
         <div className={style.containerPass}>
 
             <div className={style.title}>
-                <p>9ª convenção</p>
-                <h1>Assista os melhores momentos</h1> 
-                <h1>da Convenção 2023</h1>
+                <h4>9ª Convenção</h4>
+                <h1>Assista os melhores momentos da</h1> 
+                <h1>Convenção 2023</h1>
             </div>
 
             <div className={style.videoPas}> 

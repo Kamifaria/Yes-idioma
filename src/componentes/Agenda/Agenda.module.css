@@ -1,89 +1,50 @@
 * {
-  margin: o;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .containerAgenda {
-  max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
-  color: #f5f5f5;
-  background-color: #f5f5f5;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  height: 1030px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  
+  background-color: #2c2c2c;  
 }
 
 .titiloagenda {
-  color: #F2A136;
   margin: 0 auto;
   display: flex;
   padding: 25px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 150px;
-  
+  align-items: center;  
 }
 
 .titiloagenda h1 {
-  margin: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.88rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+}
+
+.titiloagenda h4 {
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+  padding: 12px 0;
 }
 
 .calendarioAgenda {
   display: flex;
   gap: 35px;
   margin-bottom: 50px;
-}
-.boxAgenda {
-  background-color: #fff;
-  border: 2px solid #F2A136;
-  width: 200px;
-  height: 125px;
-  border-radius: 20px;
-  box-shadow: 4px 4px 10px 0px #ba202d33;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.boxAgenda:hover{
-  cursor: pointer;
-}
-
-.itemSpace {
-  width: 100%;
-}
-.itemData {
-  display: block;
-  width: 70%;
-  height: 40px;
-  background-color: #F2A136;
-  color: white;
-  border-radius: 20px 20px 30px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 800;
-}
-.itemText {
-  width: 105px;
-  height: 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: black;
-  font-size: 14px;
-}
-
-.itemText b {
-  font-weight: 700;
-  font-size: 40px;
-  margin-right: 10px;
 }
 
 .imagemAgenda {
@@ -119,37 +80,7 @@
     height: auto;
     padding: 0 auto;
   }
-
-  .boxAgenda {
-    border: 1px solid #F2A136;
-    width: 115.39px;
-    height: 93.37px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px 0px #ba202d33;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-
-  .itemData {
-    width: 70%;
-    height: 40px;
-    background-color: #F2A136;
-    color: white;
-    border-radius: 20px 20px 30px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    font-weight: 300;
-  }
-
-  .itemText b {
-    font-weight: 300;
-    font-size: 20px;
-    margin-right: 50px;
-  }
-
+  
   .calendarioAgenda {
     gap: 10px;
     flex-direction: column;

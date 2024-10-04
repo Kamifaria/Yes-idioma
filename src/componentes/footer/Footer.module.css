@@ -1,8 +1,7 @@
 .containerFooter {
-  max-width: 1440px;
   width: 100%;
   background-color: #BA202D;
-  color: whitesmoke;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,13 @@
 }
 
 .containerFooter img {
-  width: 401.85px;
-  height: 169.5px;
+  width: 160px;
+  height: 160px;
 }
 .containerFooter p {
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;;
 }
 
 @media (max-width: 600px) {
@@ -27,7 +27,7 @@
     min-width: 100%;
   }
 
-  .containerFooter img{
+  .containerFooter img {
     width: 297.25px;
     height: 88.4px;
   }

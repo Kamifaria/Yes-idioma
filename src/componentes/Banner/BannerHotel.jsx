@@ -4,7 +4,7 @@ import LogoNova from "./novaLogo.png";
 import CountdownTimer from "../Contador";
 import style from "./banner.module.css";
 
-import Videoplay from "./Video-Site.mp4";
+import Videoplay from "./Institucional Vilarejo Praia.mp4";
 
 const targetDate = new Date("2024-10-07").getTime();
 function BannerHotel(props) {

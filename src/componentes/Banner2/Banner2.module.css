@@ -4,13 +4,13 @@
 }
 
 .containerbanner2 {
-  overflow: hidden;
+  /*overflow: hidden;*/
+  height: 900px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: #2C2C2C;
-  height: 900px;
+  background-color: #343A40;
 }
 
 .containerCafe {
@@ -22,34 +22,70 @@
   margin: 0 auto;
   margin-top: 85px;
 }
+
 .texto {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-family: "Lato", system-ui;
+  font-size: 1.00rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1875;
   margin-left: 40px;
-  padding: 10px;
-  font-weight: normal;
-  text-decoration: uppercase;
+  padding: 32px;
   color: #FFFFFF;
 }
 
-.texto h1{
-  
+.texto h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.88rem;
   font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+}
+
+.texto h4 {
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+  padding: 12px 0;
+}
+
+.texto h4 ::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("./Banner2/detalhe.png") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
 }
 
 .texto h1,
 p,
 strong {
   padding: 8px 0;
+  line-height: 1.1875em;
+}
+
+.texto strong {
+  text-decoration: underline;
+  line-height: 0.5em;
+  color: #39FF14;
+}
+
+.texto li {
+  font-family: "Lato", system-ui;
+  font-size: 1.00rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1875;
 }
 
 .container img {
   margin: 0 auto;
-}
-
-.texto h1,
-h2 {
-  color: #39FF14;
 }
 
 @media (max-width: 600px) {

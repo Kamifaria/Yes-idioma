@@ -1,33 +1,53 @@
 @keyframes animacaobtn{
-    from {border: 1px solid #F2A136;}
+    from {border: 1px solid #00FF7F;}
     to {border: transparent;}
 }
 
 .containerLotes{
-    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    color: #F2A136;
-    background-color: #F5F5F5;
-    font-family: "Montserrat", sans-serif;
+    background-color: #2C2C2C;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .tituloLote{
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
-.tituloLote p{
-    text-transform: uppercase;
+.tituloLote h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.88rem;
     font-weight: 700;
+    font-style: normal;
+    color: #00FF7F;
+}
+  
+.tituloLote h4 {
+    font-family: "Lato", system-ui;
+    font-size: 1.13rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #00FF7F;
+    padding: 12px 0;
 }
 
 .valorLotes{
-    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.bannerLotes p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
 }
 
 .bannerLotes{
@@ -62,25 +82,25 @@
 }
 
 .btnLotes{
-    color: white;
-    border: 1px solid linear-gradient(270deg, #ED9A34 20%, #D77C2B 47%, #DD903C 58%, #E3A74F 71.5%, #EFD173 93.5%);
-    border-radius: 43px;
-    padding: 5px 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: linear-gradient(270deg, #ED9A34 20%, #D77C2B 47%, #DD903C 58%, #E3A74F 71.5%, #EFD173 93.5%);
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 40px;
+  text-transform: uppercase;
+  background-color: #00FF7F; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#007BFF, #00FF7F);
 }
-
-
-
 
 .btnLotes:hover{
-    animation-name: animacaobtn;
-    animation-duration: 1s;
-    border: transparent;
+  background-color: #39FF14; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#00FF7F, #007BFF);
+  animation-name: animacaobtn;
+  animation-duration: 0.5s;
+  border: none;
+  color: #FFFFFF;
 }
-
-
 
 .bannerContainerLotes{
     display: flex;

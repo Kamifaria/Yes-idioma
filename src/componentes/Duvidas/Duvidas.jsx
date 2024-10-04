@@ -4,7 +4,7 @@ function Duvidas() {
   return (
     <div className={style.containerDuvidas}>
       <div className={style.tituloDuvidas}>
-        <p>tire suas dúvidas</p>
+        <h4>Tire suas dúvidas</h4>
         <h1>Perguntas Frequentes</h1>
       </div>
       <div className={style.conteudoDuvidas}>

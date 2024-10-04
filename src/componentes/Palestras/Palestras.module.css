@@ -1,20 +1,35 @@
 .palestras {
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  height: 1200px;
+  background-color: #2c2c2c;
+}
+
+.background {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background img {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .titulopalestra {
-  color: #f2a136;
-  font-family: "Montserrat", sans-serif;
   margin: 0 auto;
   display: flex;
   padding: 25px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #00FF7F;
 }
 
 .titulopalestra p {
@@ -27,6 +42,27 @@
   padding: 25px;
 }
 
+.titulopalestra h4 {
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+  padding: 12px 0;
+}
+
+.titulopalestra h4 ::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("./Banner2/detalhe.png") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
 .palestrantes {
   display: flex;
   flex-wrap: wrap;
@@ -37,15 +73,12 @@
 }
 
 .palestrantes img {
-  width: 285px;
-  height: 285px;
-  border-radius: 50%;
-  border: solid 5px #f2a136;
+  width: 380px;
+  height: 380px;
 }
 
 .palestrantes img:hover {
   opacity: 20%;
-  background-color: rgb(104, 94, 94);
   animation-duration: 1s;
 }
 

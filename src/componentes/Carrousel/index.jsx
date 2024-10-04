@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import background from './bg-palestrantes.png';
 import style from './styles.module.css'; // Arquivo de estilo para o carrossel
 
 
@@ -17,10 +18,12 @@ function Carousel({ images }) {
 
   return (
     <div className={style.carousel}>
-
+      <div className={style.background}>
+        <img src={background} alt="" />
+      </div>
       <div className={style.carouselTitulo}>
-            <p>galeria</p>
-            <h1>Conheça o Itatiaia Resort & Eventos</h1>
+            <h4>Galeria</h4>
+            <h1>Conheça o Vilarejo Praia Hotel</h1>
       </div>
       <button onClick={prevSlide} className={style.prev}>
         &#10094;
@@ -35,7 +38,7 @@ function Carousel({ images }) {
                 : style.slide
             }
           >
-            <img src={image} width="920px" alt={`Slide ${index}`} />
+            <img src={image} width="960px" alt={`Slide ${index}`} />
           </div>
         ))}
       </div>

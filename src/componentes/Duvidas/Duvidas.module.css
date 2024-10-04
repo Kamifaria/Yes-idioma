@@ -1,35 +1,33 @@
 .containerDuvidas {
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  background-color: #f5f5f5;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #2C2C2C;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 100px 50px;
+  justify-content: space-around;
+  padding: 100px;
 }
 
 .tituloDuvidas {
-  width: 100%;
-  flex-wrap: wrap;
-  color: #F2A136;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
+  padding: 50px;
+  text-align: center;
 }
 
 .tituloDuvidas h1 {
-  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.88rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
 }
 
-.tituloDuvidas p {
-  font-size: 16px;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
+.tituloDuvidas h4 {
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
   font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+  padding: 12px 0;
 }
 
 .conteudoDuvidas {
@@ -39,7 +37,12 @@
 
 .perguntasDuvidas {
   width: 45%;
-  font-size: 16px;
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  padding: 32px;
 }
 
 @media (max-width: 600px) {

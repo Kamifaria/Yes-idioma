@@ -31,8 +31,6 @@
   padding: 10px;
   text-align: left;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
 }
 
 .logo {
@@ -41,6 +39,9 @@
 }
 
 .menuItem {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 25px;
   color: #FFFFFF;
 }
@@ -53,6 +54,7 @@
 
 .buttonMenu {
   padding: 5px;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #FFFFFF;
@@ -71,9 +73,9 @@
   color: #FFFFFF;
 }
 
-
 .scrolled {
   background-color: #2C2C2C; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
+  z-index: 1;
 }
 
 .scrolled:hover {
@@ -83,9 +85,6 @@
     animation-duration: 0.0s;
   }
 }
-
-
-
 
 
 
