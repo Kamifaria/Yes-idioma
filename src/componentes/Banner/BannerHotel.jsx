@@ -4,16 +4,16 @@ import LogoNova from "./novaLogo.png";
 import CountdownTimer from "../Contador";
 import style from "./banner.module.css";
 
-import Videoplay from "./";
+import Videoplay from "./Institucional Vilarejo Praia.mp4";
 
 const targetDate = new Date("2024-10-07").getTime();
 function BannerHotel(props) {
   return (
     <div className={style.containerBanner}>
       
-          <video controls autoplay loop> 
+      <video controls autoplay loop muted> 
           <source src={Videoplay} type="video/mp4"/>
-          </video>
+      </video>
 
       <img className={style.imgBanner} src={Banner} alt="" />
 

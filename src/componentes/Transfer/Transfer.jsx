@@ -1,5 +1,5 @@
 import style from './Transfer.module.css';
-import Fundo from './transfer.png';
+import Fundo from './transfer2.jpeg';
 
 function Transfer() {
   return (
@@ -23,8 +23,7 @@ function Transfer() {
          Disponibilizaremos dois transferes para maior comodidade de vocês. Esta ação também tem limitações de vagas, então, garanta sua vaga já!
         </p>
       
-
-       <a className={style.bntTransfer} href="https://qa0qeqkl.forms.app/convencao2024" target='blank' >
+        <a className={style.bntTransfer} href="https://qa0qeqkl.forms.app/convencao2024" target='blank' >
           Garanta seu lugar
         </a>
       </div>

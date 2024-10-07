@@ -39,29 +39,51 @@
 .titleTransfer{
   padding: 50px;
   text-align: right;
+  font-family: "Lato", system-ui;
+  font-size: 1.00rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1875;
+  margin-left: 40px;
+  padding: 32px;
+  color: #FFFFFF;
 }
-
 
 .conteudoTransfer h1 {
-  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.88rem;
   font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
 }
+
+.conteudoTransfer h4 {
+  font-family: "Lato", system-ui;
+  font-size: 1.13rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #00FF7F;
+  padding: 12px 0;
+}
+
 .bntTransfer {
-  margin-top: 20px;
-  text-decoration: none;
-  color: white;
-  border: 1px solid transparent;
-  border-radius: 43px;
-  padding: 5px 20px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 40px;
   text-transform: uppercase;
-  background: linear-gradient(270deg, #ED9A34 20%, #D77C2B 47%, #DD903C 58%, #E3A74F 71.5%, #EFD173 93.5%);
+  background-color: #00FF7F; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#007BFF, #00FF7F);
 }
 
 .bntTransfer:hover {
-  border: transparent;
-  background-color: white;
-  animation-name: animacaoTransfer;
-  animation-duration: 1s;
+  background-color: #39FF14; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#00FF7F, #007BFF);
+  animation-name: animacaobtn;
+  animation-duration: 0.5s;
+  border: none;
+  color: #FFFFFF;
 }
 
 .fundoTransfer {

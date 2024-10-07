@@ -10,33 +10,33 @@ function Lotes( props ){
 
             <div className={style.bannerContainerLotes}>
                 <div className={style.bannerLotes}>
-                    <h1>1º lote</h1>
+                    <h1>Pré-Venda</h1>
                     <h1 className={style.valorLotes}>R$ 1.990</h1>
-                    <p>por pessoa até 31/12</p>
+                    <p>por pessoa até 15/10</p>
                                        
                     <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva </a>
 
                 </div>
                 <div className={style.bannerLotes}>
-                    <h1>2º lote</h1>
+                    <h1>1º lote</h1>
                     <h1 className={style.valorLotes}>R$ 2.300</h1>
-                    <p>por pessoa até 30/04</p>
+                    <p>por pessoa até 31/12</p>
                     
                     <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva </a>
 
                 </div>
                 <div className={style.bannerLotes}>
-                    <h1>3º lote</h1>
-                    <h1 className={style.valorLotes}>R$ 2.500</h1>
-                    <p>por pessoa até 31/08</p>
+                    <h1>2º lote</h1>
+                    <h1 className={style.valorLotes}>R$ 2.800</h1>
+                    <p>por pessoa até 28/02</p>
                                    
                     <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva </a>
                 </div>
 
                 <div className={style.bannerLotes}>
-                    <h1>4º lote</h1>
+                    <h1>3º lote</h1>
                     <h1 className={style.valorLotes}>R$ 3.000</h1>
-                    <p>por pessoa até 30/09</p>
+                    <p>por pessoa até 31/05</p>
                     
                     <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >faça sua reserva </a>
                 </div>

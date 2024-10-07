@@ -88,14 +88,30 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container {
-    max-width: 600px;
-    width: 100vw;
-    position: absolute;
+    padding: 10px;
   }
 
-  .container nav {
+  .container a {
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+
+  .buttonMenu {
+    padding: 2px;
+    font-size: 12px;
+  }  
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    gap: 12px;
+    display: block;
+  }
+  .container a {
     display: none;
   }
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import style from "./menu.module.css";
 import Logo from "./logo-yes.png";
+import { MenuIcon } from "./menu-icon.png";
 
 function ComponentMenu(props) {
   const [scrolled, setScrolled] = useState(false);
@@ -46,6 +47,7 @@ function ComponentMenu(props) {
       </nav>
     </div>
   );
+
 }
 
 export default ComponentMenu;
