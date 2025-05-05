@@ -1,53 +1,71 @@
 @keyframes animacaobtn{
-    from {border: 1px solid #00FF7F;}
+    from {border: 1px solid #022CFE;}
     to {border: transparent;}
 }
 
 .containerLotes{
     width: 100%;
-    margin: 0 auto;
-    background-color: #2C2C2C;
+    height: 850px;
+    margin: 0;
+    background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 0;
+}
+
+.background {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tituloLote{
     padding: 20px;
     text-align: center;
+    z-index: 0;
 }
 
 .tituloLote h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.88rem;
+    font-size: 30px;
     font-weight: 700;
     font-style: normal;
-    color: #00FF7F;
+    color: #FFFFFF;
+    padding: 8px 0 35px 0; 
 }
   
 .tituloLote h4 {
-    font-family: "Lato", system-ui;
-    font-size: 1.13rem;
-    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
     font-style: normal;
-    color: #00FF7F;
+    color: #FFFFFF;
     padding: 12px 0;
+}
+
+.tituloLote h4::before {
+    content: "|";
+    position: relative;
+    top: -2px;
+    left: -4px;
 }
 
 .valorLotes{
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 900;
-    color: #000000;
+    color: #111111;
 }
 
 .bannerLotes p {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #000000;
+    color: #111111;
 }
 
 .bannerLotes{
@@ -82,24 +100,24 @@
 }
 
 .btnLotes{
-  padding: 15px;
-  font-family: "Montserrat", sans-serif;;
-  font-size: 16px;
-  font-weight: 700;
-  color: #FFFFFF;
-  border-radius: 40px;
-  text-transform: uppercase;
-  background-color: #00FF7F; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#007BFF, #00FF7F);
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 40px;
+    text-transform: uppercase;
+    background-color: #022CFE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#D32AD3, #022CFE);
 }
 
 .btnLotes:hover{
-  background-color: #39FF14; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#00FF7F, #007BFF);
-  animation-name: animacaobtn;
-  animation-duration: 0.5s;
-  border: none;
-  color: #FFFFFF;
+    background-color: #022CFE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#022CFE, #D32AD3);
+    animation-name: animacaobtn;
+    animation-duration: 0.5s;
+    border: none;
+    color: #FFFFFF;
 }
 
 .bannerContainerLotes{

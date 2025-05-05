@@ -60,14 +60,13 @@ function Home() {
       />
       <BannerHotel page_control={(content) => page_control(content)} />
       <Banner2 />
-      <Palestras />
-      <ConvPass />
-      <Agenda />
-      <Carousel ref={hotelRef} images={images} />
-      <Transfer />
       <Lotes page_control={(content) => page_control(content)} />
+      <Carousel ref={hotelRef} images={images} />
+      <Agenda />
+      <ConvPass />
+      <Transfer />
       <Duvidas />
-      
+      {false && <Palestras />}
       <Footer />
     </div>
   );

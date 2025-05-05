@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import style from "./menu.module.css";
 import Logo from "./logo-yes.png";
-import { MenuIcon } from "./menu-icon.png";
 
 function ComponentMenu(props) {
   const [scrolled, setScrolled] = useState(false);
@@ -36,7 +35,7 @@ function ComponentMenu(props) {
 
   return (
     <div className={`${style.container} ${scrolled ? style.scrolled : ""}`}>
-      <img className={style.logo} src={Logo} alt="Logo YES!" />
+      
       <nav>
         <a className={style.menuItem} href="#">Convenção</a>
         <a onClick={() => props.handleClick(4091)} className={style.menuItem} href="#">Hotel</a>

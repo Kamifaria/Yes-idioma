@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../hotel.jpg";
-import LogoNova from "./novaLogo.png";
+import Banner from "../hotelvilarejo.jpg";
+import LogoNova from "./logo.png";
 import CountdownTimer from "../Contador";
 import style from "./banner.module.css";
 
 import Videoplay from "./Institucional Vilarejo Praia.mp4";
 
-const targetDate = new Date("2024-10-07").getTime();
+const targetDate = new Date("2025-10-06").getTime();
 function BannerHotel(props) {
   return (
     <div className={style.containerBanner}>
@@ -18,8 +18,11 @@ function BannerHotel(props) {
       <img className={style.imgBanner} src={Banner} alt="" />
 
       <div className={style.textobanner}>
-        <h1>A Hora é agora!</h1>
-        <p>Adquira o seu lugar na 11ª Convenção 2025</p>
+        <div>
+          <img className={style.LogoNova} src={LogoNova} alt="" />
+        </div>
+
+        <p>06 à 09 de Outubro de 2025</p>
         
         <a onClick={() => props.page_control("CadastroTransfer")}
           className={style.butaoBanner} >

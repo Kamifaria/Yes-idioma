@@ -9,21 +9,20 @@ function Banner2() {
         <div className={style.texto}>
           <h4>Vem aí </h4>
           
-          <h1>11ª Convenção de <br/>Franqueados YES! Idiomas</h1>
+          <h1>11ª Convenção de Franqueados YES!</h1>
           
-          <p>É com grande alegria e entusiasmo que estamos preparando a nossa 11ª Convenção. Este evento promete ser um marco em nossa jornada, repleto de aprendizado, networking, entretenimento e oportunidades emocionantes.</p>
+          <p>É com grande alegria e entusiasmo que estamos preparando a nossa <b>11ª Convenção</b>. Este evento promete ser um marco em nossa jornada, repleto de aprendizado, networking, entretenimento e oportunidades emocionantes.</p>
 
-          <p>Devido à grande procura e a quantidade de quartos do hotel, as vagas são limitadas! Recomendamos que garanta sua participação o mais rápido possível.</p>
+          <p>Devido à grande procura e a quantidade de quartos do hotel, <b>as vagas são limitadas!</b> Recomendamos que garanta sua participação o mais rápido possível.</p>
 
           <ul>
             <li>Participe de workshops e sessões exclusivas para aprimorar suas habilidades e conhecimentos.</li>
             <li>Conecte-se com colegas franqueados e compartilhe experiências.</li>
-            <li>Conheça as últimas estratégias e novidades da <b>YES! Idiomas.</b></li>
+            <li>Conheça as últimas estratégias e novidades da <b>YES!.</b></li>
           </ul>
 
-          <p>Estamos ansiosos para recebê-los neste encontro mais que especial.</p>
+          <p>Estamos ansiosos para recebê-los neste <strong>encontro mais que especial.</strong></p>
 
-          <strong>Faça parte da 11ª Convenção agora mesmo!</strong>
         </div>
       </div>
     </div>

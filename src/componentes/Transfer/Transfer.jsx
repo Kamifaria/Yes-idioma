@@ -1,11 +1,11 @@
 import style from './Transfer.module.css';
-import Fundo from './transfer2.jpeg';
+import background from './fundo2.png';
 
 function Transfer() {
   return (
     <div className={style.containerTransfer}>
-      <div className={style.fundoTransfer}>
-        <img src={Fundo} alt="" />
+      <div className={style.background}>
+        <img src={background} alt=""/>
       </div>
       <div className={style.conteudoTransfer}>
         <h4 className={style.titleTransfer}>Transfer</h4>
@@ -20,10 +20,11 @@ function Transfer() {
         </p>
 
         <p>
-         Disponibilizaremos dois transferes para maior comodidade de vocês. Esta ação também tem limitações de vagas, então, garanta sua vaga já!
+         Disponibilizaremos dois transferes para maior comodidade de vocês. Esta ação também tem limitações de vagas, então, <b>garanta sua vaga já!</b>
         </p>
       
-        <a className={style.bntTransfer} href="https://qa0qeqkl.forms.app/convencao2024" target='blank' >
+
+       <a className={style.bntTransfer} target='blank' >
           Garanta seu lugar
         </a>
       </div>

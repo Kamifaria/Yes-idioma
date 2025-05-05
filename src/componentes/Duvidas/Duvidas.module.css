@@ -1,16 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .containerDuvidas {
   width: 100%;
-  margin: 0 auto;
-  background-color: #2C2C2C;
+  height: 790px;
+  margin: 0;
+  background-color: #F2F2F2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 100px;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tituloDuvidas {
   padding: 50px;
   text-align: center;
+  z-index: 1;
 }
 
 .tituloDuvidas h1 {
@@ -18,51 +35,68 @@
   font-size: 1.88rem;
   font-weight: 700;
   font-style: normal;
-  color: #00FF7F;
+  color: #022CFE;
+  padding: 8px 0 40px 0; 
 }
 
 .tituloDuvidas h4 {
-  font-family: "Lato", system-ui;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.13rem;
   font-weight: 700;
   font-style: normal;
-  color: #00FF7F;
+  color: #D32AD3;
   padding: 12px 0;
+}
+
+.tituloDuvidas h4::before {
+  content: "|";
+  position: relative;
+  top: -2px;
+  left: -4px;
 }
 
 .conteudoDuvidas {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .perguntasDuvidas {
-  width: 45%;
-  font-family: "Lato", system-ui;
-  font-size: 1.13rem;
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 400;
-  font-style: normal;
-  color: #FFFFFF;
+  line-height: 20px;
+  color: #111111;
   padding: 32px;
 }
 
 @media (max-width: 600px) {
   .containerDuvidas {
-    max-width: 600px;
     width: 100%;
+    display: none;
   }
 
   .perguntasDuvidas {
-    height: 50%;
     display: block;
+    padding: 32px 0 0 0;
+    margin: 0;
   }
 
   .tituloDuvidas{
-    padding: 0 auto;
+    padding: 0;
     display: block;
   }
 
   .tituloDuvidas h1 {
-    font-size: 20px;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  .tituloDuvidas h4 {
+    font-size: 1rem;
+    text-align: center;
   }
 
   .tituloDuvidas p {
@@ -71,5 +105,10 @@
 
   .tituloDuvidas strong {
     font-weight: 300;
+  }
+
+  .perguntasDuvidas {
+    width: 100%;
+    font-size: 0.875rem;
   }
 }

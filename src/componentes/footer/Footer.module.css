@@ -18,7 +18,8 @@
 .containerFooter p {
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;;
+  font-size: 14px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -28,7 +29,12 @@
   }
 
   .containerFooter img {
-    width: 297.25px;
-    height: 88.4px;
+    width: 160px;
+    height: 160px;
+  }
+
+  .containerFooter p {
+    padding: 10px;
+    font-size: 12px;
   }
 }

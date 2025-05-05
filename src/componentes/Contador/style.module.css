@@ -1,13 +1,14 @@
 .contador{
-    Width: 760px;
-    Height: 145px;
+    width: 760px;
+    height: 145px;
     border-radius: 20px;
-    background-color: white;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     position: absolute;
+    top: 700px;
     bottom: -70px;
     right: 0;
     left: 0;
@@ -18,21 +19,43 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid #111111;
     height: 90px;
     padding: 0 30px;
     flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 .contador span b{
     width: 100%;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 700;
 }
 
 .contador span:last-child{
-border: 0;
+    border: 0;
+}
+
+@media (max-width: 800px){
+    .contador{
+        max-width: 800px;
+        width: 100vw;
+        padding: 10px 10px;
+        top: 450px;
+    }
+
+    .contador span{
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .contador span b{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
 }
 
 @media (max-width: 600px){
@@ -40,6 +63,7 @@ border: 0;
         max-width: 600px;
         width: 100vw;
         padding: 10px 10px;
+        top: 500px;
     }
 
     .contador span{
@@ -47,11 +71,8 @@ border: 0;
     }
 
     .contador span b{
-
         font-size: 18px;
         font-weight: 600;
     }
-
-
 
 }

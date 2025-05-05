@@ -1,8 +1,13 @@
 import style from './Duvidas.module.css';
+import background from './bg-duvidas.jpg';
 
 function Duvidas() {
   return (
     <div className={style.containerDuvidas}>
+      <div className={style.background}>
+        <img src={background} alt=""/>
+      </div>
+
       <div className={style.tituloDuvidas}>
         <h4>Tire suas dúvidas</h4>
         <h1>Perguntas Frequentes</h1>

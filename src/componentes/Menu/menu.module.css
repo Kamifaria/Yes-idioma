@@ -3,28 +3,30 @@
     color: #FFFFFF;
   }
   to {
-    color: #00FF7F;
+    color: #022CFE;
   }
 }
 
 @keyframes animacaobtn {
   from {
-    background-color: #FFFFFF;
+    background-color: transparent;
   }
   to {
-    background-color: #00FF7F;
+    background-color: #022CFE;
   }
 }
 
 .container {
-  position: sticky;
+  width: 100%;
+  height: 80px;
+  position: fixed;
   top: 0;
   overflow: hidden;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: #2C2C2C;
+  background-color: transparent;
 }
 
 .container a {
@@ -47,7 +49,7 @@
 }
 
 .menuItem:hover {
-  color: #00FF7F;
+  color: #022CFE;
   animation-name: animacao;
   animation-duration: 0.5s;
 }
@@ -60,13 +62,13 @@
   color: #FFFFFF;
   border-radius: 40px;
   text-transform: uppercase;
-  background-color: #00FF7F; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#007BFF, #00FF7F);
+  background-color: #022CFE; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#D32AD3, #022CFE);
 }
 
 .buttonMenu:hover {
-  background-color: #39FF14; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#00FF7F, #007BFF);
+  background-color: #022CFE; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#022CFE, #D32AD3);
   animation-name: animacaobtn;
   animation-duration: 0.5s;
   border: none;
@@ -74,7 +76,7 @@
 }
 
 .scrolled {
-  background-color: #2C2C2C; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
+  background-color: #007BFF; /* Altere para a cor de fundo desejada quando o menu estiver sendo rolado */
   z-index: 1;
 }
 
