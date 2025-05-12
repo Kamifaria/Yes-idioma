@@ -1,14 +1,18 @@
-import React from "react";
 
 const VideoComponent = () => {
-
-    return(
-        <video width="600" height="400" controls autoPlay loop
-        src="../Banner/Institucional Vilarejo Praia.mp4" type="video/mp4">
-            videos teste
-        </video>
-    );
-
-}
+  return (
+    <div>
+     <iframe
+  width="600"
+  height="400"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="Vídeo Institucional"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+    </div>
+  );
+};
 
 export default VideoComponent;

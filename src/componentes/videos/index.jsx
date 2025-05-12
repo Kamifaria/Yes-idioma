@@ -1,11 +1,9 @@
-import VideoPlay from "../Banner/Institucional Vilarejo Praia.mp4";
-
-function Video(){
-    return(
+function Video() {
+    return (
         <div>
-            <video src={VideoPlay} controls></video>
+            <video src="/Institucional Vilarejo Praia.mp4" controls autoPlay loop></video>
         </div>
-    )
+    );
 }
 
 export default Video;
