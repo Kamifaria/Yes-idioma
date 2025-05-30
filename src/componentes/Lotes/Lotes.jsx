@@ -41,14 +41,12 @@ function Lotes( props ){
 
                 </div>
 
-                <div className={style.bannerLotes}>
-                    <h1>3º lote</h1>
-                    <h1 className={style.valorLotes}>R$ 3.000</h1>
-                    <p>por pessoa até 31/05</p>
-                    
-                    <a onClick={() => props.page_control("CadastroTransfer")}  className={style.btnLotes} >Faça sua reserva </a>
-
-                </div>
+               <div className={style.bannerLotes}>
+  <h1>3º lote</h1>
+  <h1 className={style.valorLotes}>R$ 3.000</h1>
+  <p>por pessoa até 31/05</p>
+  <img className={style.loteEsgotado} src={Esgotado} alt="" />
+</div>
             </div>
 
         </div>
