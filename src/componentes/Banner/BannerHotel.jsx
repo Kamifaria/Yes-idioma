@@ -32,12 +32,12 @@ function BannerHotel(props) {
 
         <p>06 à 09 de Outubro de 2025</p>
 
-        <a
+        {/*<a
           onClick={() => props.page_control("CadastroTransfer")}
           className={style.butaoBanner}
-        >
+        
           Fazer Reserva
-        </a>
+         </a> */}
       </div>
 
       <CountdownTimer targetDate={targetDate} />

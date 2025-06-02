@@ -42,7 +42,7 @@ function ComponentMenu(props) {
         <a onClick={() => props.handleClick(2891)} className={style.menuItem} href="#">Programação</a>
         <a onClick={() => props.handleClick(6091)} className={style.menuItem} href="#">Perguntas</a>
         <a onClick={() => props.handleClick(4891)} className={style.menuItem} href="#">Transfer</a>
-        <a onClick={() => props.page_control("CadastroTransfer")} className={style.buttonMenu} href="#">Fazer Reserva</a>
+        {/* <a onClick={() => props.page_control("CadastroTransfer")} className={style.buttonMenu} href="#">Fazer Reserva</a> */}
       </nav>
     </div>
   );
